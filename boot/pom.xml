@@ -4,13 +4,13 @@
 
 	<parent>
 		<groupId>com.ontimize</groupId>
-		<artifactId>hr</artifactId>
+		<artifactId>FlatMate</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<name>${project.artifactId}</name>
 	<description>${project.artifactId}</description>
-	<artifactId>hr-boot</artifactId>
+	<artifactId>FlatMate-boot</artifactId>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -21,20 +21,16 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.ontimize</groupId>
-			<artifactId>hr-api</artifactId>
+			<artifactId>FlatMate-api</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>com.ontimize</groupId>
-			<artifactId>hr-frontend</artifactId>
+			<artifactId>FlatMate-model</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.ontimize</groupId>
-			<artifactId>hr-model</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.ontimize</groupId>
-			<artifactId>hr-ws</artifactId>
+			<artifactId>FlatMate-ws</artifactId>
 		</dependency>
 
 		<!-- Ontimize Boot -->

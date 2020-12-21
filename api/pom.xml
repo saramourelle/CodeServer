@@ -4,13 +4,13 @@
 
     <parent>
         <groupId>com.ontimize</groupId>
-        <artifactId>hr</artifactId>
+        <artifactId>FlatMate</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <name>${project.artifactId}</name>
     <description>${project.artifactId}</description>
-    <artifactId>hr-api</artifactId>
+    <artifactId>FlatMate-api</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

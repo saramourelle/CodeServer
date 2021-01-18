@@ -66,7 +66,7 @@ spring:
       driver-class-name: org.postgresql.Driver #Driver del JDBC
       jdbcUrl: jdbc:postgresql://localhost:5432/postgres #URL de conexión
       username: postgres # Nombre de usuario de la BD
-      password: 26101986 # Contraseña del usuario de la BD
+      password: 123456 # Contraseña del usuario de la BD
       initialSize: 10 # Tamaño inicial
       testOnBorrow: true # Validación
    main:

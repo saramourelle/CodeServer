@@ -9,7 +9,7 @@ import api.core.service.IAlquilerService;
 import com.ontimize.jee.server.rest.ORestController;
 
 @RestController
-@RequestMapping("/alquiler")
+@RequestMapping("/rentals")
 @ComponentScan(basePackageClasses = { api.core.service.IAlquilerService.class })
 public class alquilerRestController extends ORestController<IAlquilerService> {
 

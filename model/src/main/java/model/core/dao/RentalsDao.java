@@ -14,7 +14,7 @@ public class RentalsDao extends OntimizeJdbcDaoSupport {
  public static final String ATTR_rental_id = "rental_id";
  public static final String ATTR_flat_id = "flat_id";
  public static final String ATTR_room_id = "room_id";
+ public static final String ATTR_availability = "availability";
 
- 
 
 }

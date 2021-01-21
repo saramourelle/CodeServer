@@ -12,6 +12,7 @@ import com.ontimize.jee.server.dao.jdbc.OntimizeJdbcDaoSupport;
 public class RoomDao extends OntimizeJdbcDaoSupport {
 
  public static final String ATTR_room_id = "room_id";
+ public static final String ATTR_flat_id = "flat_id";
  public static final String ATTR_price = "price";
  public static final String ATTR_adress = "adress";
  public static final String ATTR_description = "description";
